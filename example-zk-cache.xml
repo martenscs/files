@@ -53,7 +53,7 @@
         <bean class="org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi">
             <property name="ipFinder">
                 <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.zk.TcpDiscoveryZookeeperIpFinder">
-                    <property name="zkConnectionString" value="192.168.84.20:2181"/>
+                    <property name="zkConnectionString" value="192.168.84.21:2181"/>
                     <property name="serviceName" value="vm1"/>
                 </bean>
             </property>
